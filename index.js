@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
     $(".trial").click(function(){
-        $(".drpdwn-cont").fadeToggle();
         $(".trial-drpdwn").fadeToggle();
         $(".trial-drpdwn").css("display","flex");
 

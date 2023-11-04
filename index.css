@@ -582,9 +582,16 @@ body {
 }
 
 .trial-drpdwn {
-  display: flex;
+  position: fixed;
+  top: 80px;
+  left:50%;
+  transform: translate(-50%,0);
+  z-index: 50;
+  display:none;
   justify-content: space-evenly;
   align-items: center;
+  width: 60vw;
+  height:70vh;
   padding: 2rem 0rem;
   border-radius: 10px;
   background-image: linear-gradient(to right, #36bdab8a, #36bdab80, #ff7e845d);
